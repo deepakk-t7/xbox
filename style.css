@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+ul {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  padding-top: 20px;
+  align-items: flex-start;
+  margin-left: 360px;
+  font-size: 13px;
+}
+.mic {
+  position: absolute;
+  width: 7%;
+  padding-top: 18px;
+  margin-left: 70px;
+}
+.mic-2 {
+  position: absolute;
+  width: 6%;
+  padding-top: 15px;
+  margin-left: 220px;
+}
+.pp {
+  position: absolute;
+  padding-top: 15px;
+  margin-left: 195px;
+  font-size: 20px;
+}
+article {
+  position: relative;
+}
+.main-img {
+  width: 100%;
+}
+
+.main-text {
+  position: absolute;
+  top: 150px;
+  left: 90px;
+  color: aliceblue;
+}
+.main-h1 {
+  font-size: 50px;
+  line-height: 1.7;
+}
+.main-h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.main-btn {
+  font-size: 17px;
+  margin-top: 40px;
+  padding: 5px 22px;
+  font-weight: 800;
+  color: rgb(4, 90, 20);
+  border: none;
+  background-color: rgb(130, 248, 34);
+}
+.middle {
+  position: relative;
+  margin: 135px 5px;
+}
+.middle-text {
+  background-color: #0e7a0d;
+  width: 370px;
+  padding: 50px;
+  height: 405px;
+  position: absolute;
+  top: 0;
+  right: 360px;
+}
+.middle-text h1 {
+  color: white;
+  line-height: 1.1;
+  font-size: 40px;
+}
+.middle-text p {
+  color: white;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.middle button {
+  background-color: #0e7a0d;
+  border: none;
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.middle button:hover {
+  color: rgb(55, 232, 35);
+  cursor: pointer;
+  padding-bottom: 1px;
+  border-bottom: 2px solid rgb(55, 232, 35);
+}
+.mid-img-1 {
+  width: 50%;
+}
+.mid-img-2 {
+  position: absolute;
+  top: 0;
+  width: 24.5%;
+  right: 0;
+  overflow: hidden;
+  transition: transform 330ms ease;
+}
+.mid-img-2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.mid-img-3 {
+  position: absolute;
+  top: 410px;
+  width: 50%;
+  margin-left: 5px;
+}
+.middle-text-2 {
+  background-color: #0e7a0d;
+  width: 370px;
+  padding: 50px;
+  height: 401px;
+  position: absolute;
+  top: 835px;
+  left: 0px;
+}
+.mid-img-4 {
+  position: absolute;
+  left: 370px;
+  height: 48%;
+  top: 835px;
+  width: 25%;
+}
